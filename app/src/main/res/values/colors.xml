@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#EFF4F1</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <!--背景及其他色-->
+    <color name="white">#ffffffff</color>
+    <color name="gray_666666">#ff666666</color>
+    <color name="viewfinder_mask">#bb25353e</color>
+    <color name="result_view">#b0000000</color>
+    <color name="background_gray">#ebebeb</color>
+    <color name="background_line_color">#dddddd</color>
+    <color name="background_points">#C0BCBC</color>
+    <color name="background_white">#ffffff</color>
+
+
+
+    <!--可操作部件颜色，如输入框，下拉框-->
+    <color name="text_yellow">#FF6D00</color>
+    <color name="state_selected">#80FF6D00</color>
+    <color name="color_common_background">#f7f7f7</color>
+    <color name="color_appbar_split_line">#dedede</color>
+    <color name="color_recycleview_line">#f0f0f0</color>
+    <color name="edit_text_common">#43b02a</color>
+    <color name="color_common_text">#333333</color>
+    <!--强调色-->
+    <color name="text_red">#dc143c</color>
+
+    <!--透明-->
+    <color name="transparent">#00000000</color>
 </resources>

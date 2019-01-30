@@ -3,6 +3,7 @@
     package="com.example.java.mypermissions">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".tabview.CardViewActivity"
+            android:theme="@style/NoActionBar"/>
+
+        <activity android:name=".permissons.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
